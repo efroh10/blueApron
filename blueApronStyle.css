@@ -1,0 +1,11 @@
+#banner {
+    display: flex;
+    position: fixed;
+    height: 50px;
+    width: 100%;
+}
+
+#main   {
+    position: relative;
+    top: 50px;
+}
