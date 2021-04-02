@@ -11,3 +11,37 @@
     height: 500px;
     width: 100%;
 }
+
+.center {
+    background-image: url(https://media.blueapron.com/home_page/WhatsInTheDelivery/20171213_HomepageUpdate_WhatsInside_1200_Desktop.jpg?quality=75);
+    height: 580px;
+}
+
+.gridContainer  {
+
+    background-color: #fff;
+    margin: 12% , 
+}
+
+.grid   {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "a b"
+                         "c d";
+    
+    
+}
+
+.planSelection  {
+    background-color: blue;
+    height: 80px;
+    width: 500px;
+    border-radius: 50px;
+    justify-self: center;
+    text-align: center;
+    font-size: 40px;
+    font-family: "lucida grande";
+    color: #fff;
+    border: none;
+    
+}
