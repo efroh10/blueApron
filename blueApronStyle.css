@@ -1,15 +1,97 @@
-#banner {
+.banner {
     display: flex;
     position: fixed;
     height: 50px;
     width: 100%;
+    padding-bottom: 10px;
+    background-color: white;
 }
 
-#main   {
-    position: relative;
-    top: 50px;
-    height: 500px;
-    width: 100%;
+.logo   {
+    width: 100px;
+    margin-left: 120px;
+}
+
+.nav    {
+    display: flex;
+}
+
+.navItem    {
+    list-style-type: none;
+    margin-right: 20px;
+    color: gray;
+    font-size: small;
+}
+
+.navItem:hover {
+    color: navy;
+}
+
+.logIn    {
+    margin-left: 450px;
+}
+
+.signUp {
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+.button {
+    color: white;
+    background-color: darkorange;
+    border-radius: 3px;
+    border: none;
+    font-size: large;
+    font-weight: bold;
+}
+
+.signUpButton   {
+    height: 40px;
+    width: 100px;
+}
+
+.vid    {
+    width: 100%
+}
+
+.getStarted {
+    width: 200px;
+    height: 40px;
+}
+
+.main   {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    color: wheat;
+}
+
+.doodle {
+    height: 325px;
+}
+
+.top    {
+    padding-top: 65px;
+}
+
+.doodle.left {
+    padding-left: 200px;
+}
+
+.doodle.right   {
+    padding-left: 125px;
+}
+
+.txtblck    {
+    width: 500px;
+    font-size: 25px;
+    color: rgb(92, 92, 92);
+    padding-top: 75px;
+}
+
+.txtblck.left   {
+    padding-left: 250px;
 }
 
 .center {

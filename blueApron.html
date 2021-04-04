@@ -1,53 +1,57 @@
 <html lang="en">
+
 <head>
     <link type="text/css" rel="stylesheet" href="blueApronStyle.css">
     <title>Top Meal Delivery Service - Meal Kits for Home Cooking - Blue Apron</title>
 </head>
+
 <body>
+
     <header class="banner">
-        <img src="blueApron.png">
-        <ul>
-            <li>ON THE MENU</li>
-            <li>PRICING</li>
-            <li>WINE</li>
-            <li>GIFTS</li>
-            <li>MARKET</li>
-            <li>LOG IN</li>
+        <img src="blueApron.png" class="logo">
+        <ul class="nav">
+            <li class="navItem">ON THE MENU</li>
+            <li class="navItem">PRICING</li>
+            <li class="navItem">WINE</li>
+            <li class="navItem">GIFTS</li>
+            <li class="navItem">MARKET</li>
         </ul>
-        
-        <button>SIGN UP</button>
+        <ul class="nav">
+            <li class="logIn navItem">LOG IN</li>
+            <li class="signUp"><button class="signUpButton button">SIGN UP</button></li>
+        </ul>
     </header>
 
-    <div id = main>
-        <video autoplay muted loop>
+    <div class = main>
+        <video class="vid" autoplay muted loop>
             <source src="https://media.blueapron.com/home_page/Splash/BA_Holiday_201911.mp4"
                     type="video/mp4">
         </video>
-        <h1>Delicious recepies delivered to your door</h1>
-        <button>GET STARTED</button>
+        <h2>Delicious recepies delivered to your door</h2>
+        <button class="getStarted button">GET STARTED</button>
     </div>
 
     <div class="grid sixItems">
-        <div class="doodle">
-            <img>
+        <div>
+            <img src="doodle1.png" class="doodle left top">
         </div>
-        <div class="txtblck">
+        <div class="txtblck top">
             <h2>Choose your meals</h2>
             <p>We keep dinner interesting. From top-rated favorites and health-conscious options to Premium dishes and more, variety is always on the menu.</p>
         </div>
-        <div class="doodle">
-            <img>
+        <div class="txtblck left">
+            <h2>Unpack your box</h2>
+            <p>We guarantee the freshness of all our ingredients and deliver them in an insulated box right to your door.</p>
+        </div>
+        <div>
+            <img src="doodle2.png" class="doodle right">
+        </div>
+        <div>
+            <img src="doodle3.png" class="doodle left">
         </div>
         <div class="txtblck">
-            <h2></h2>
-            <p></p>
-        </div>
-        <div class="doodle">
-            <img>
-        </div>
-        <div class="txtblck">
-            <h2></h2>
-            <p></p>
+            <h2>Cook, create, enjoy</h2>
+            <p>Follow our easy step-by-step recipes to learn new skills, try new tastes, and make your family amazing meals.</p>
         </div>
     </div>
 
