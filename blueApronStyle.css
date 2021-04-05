@@ -12,6 +12,7 @@ body    {
     padding-top: 5px;
     background-color: white;
     z-index: 1;
+    border-bottom: 1px solid lightgray;
 }
 
 .logo   {
@@ -53,6 +54,11 @@ body    {
     font-size: 15px;
     letter-spacing: 0.1em;
     font-weight: 500;
+}
+
+.button:hover   {
+    background-color: #db5c25;
+    cursor: pointer;
 }
 
 .signUpButton   {
@@ -125,13 +131,18 @@ body    {
 
 .center {
     background-image: url(https://media.blueapron.com/home_page/WhatsInTheDelivery/20171213_HomepageUpdate_WhatsInside_1200_Desktop.jpg?quality=75);
-    height: 580px;
+    background-size: 1400px 1200px;
+    height: 1200px;
+    display: flex;
+    margin: 100px 135px;
 }
 
 .gridContainer  {
-
     background-color: #fff;
-    margin: 12% , 
+    margin: 50px 145px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .grid   {
@@ -139,19 +150,79 @@ body    {
     grid-template-columns: 1fr 1fr;
     grid-template-areas: "a b"
                          "c d";
-    
-    
+    padding: 50px 100px;
+}
+
+.blurb  {
+    color: #6a6d75;
+    text-align: center;
+    line-height: 2em;
+}
+
+.emblem {
+    height: 75px;
+    width: 75px;
+}
+
+.title  {
+    color: #303236;
+    text-align: center;
+    font-size: 18px;
+    letter-spacing: 0.1em;
+    padding-top: 30px;
+}
+
+.infoSegment    {
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.infoTitle  {
+    color: #303236;
+    text-align: center;
 }
 
 .planSelection  {
-    background-color: blue;
-    height: 80px;
-    width: 500px;
+    margin-top: 75px;
+    background-color: #2e62af; 
+    height: 50px;
+    width: 315px;
     border-radius: 50px;
-    justify-self: center;
     text-align: center;
-    font-size: 40px;
+    font-size: 20px;
     color: #fff;
     border: none;
-    
+    margin-bottom: 50px;
+}
+
+.planSelection:hover    {
+    background-color: #245091;
+    cursor: pointer;
+}
+
+.offer  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.offerText  {
+    color: #6a6d75;
+    font-size: 18px;
+}
+
+.offerTitle {
+    color: #303236;
+    font-size: 28px;
+}
+
+.selectDoodle   {
+    width: 225px;
+    height: 175px;
+}
+
+.planSelection .offerSelection  {
+    margin-top: 0px;
 }
