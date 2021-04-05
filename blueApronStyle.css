@@ -226,3 +226,98 @@ body    {
 .planSelection .offerSelection  {
     margin-top: 0px;
 }
+
+.communicationOptions   {
+    display: flex;
+    background-color: #fafbfc;
+}
+
+.sMLogos    {
+    height: 40px;
+    width: 200px;   
+}
+
+.comOption  {
+    width: 33.33%;
+    text-align: center;
+}
+
+.goButton   {
+    background-color: #2e62af;
+    color: #fff;
+    border: none;
+    height: 30px;
+    width: 50px;
+    border-radius: 7px;
+    font-size: 15px;
+}
+
+.goButton:hover {
+    background-color: #245091;
+    cursor: pointer;
+}
+
+.email  {
+    height: 30px;
+}
+
+.blogLink   {
+    color: #303236;
+    text-decoration: none;
+    text-align: start;
+}
+
+.blogLink:hover {
+    text-decoration: underline;
+}
+
+.blogThumbnail  {
+    height: 100px;
+    width: 100px;
+}
+
+.blog {
+    display: flex;
+}
+
+.link   {
+    color: #b1b5bd;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.link:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+footer  {
+    background-color: #0f346c;
+    display: flex;
+    height: 250px;
+}
+
+.links  {
+    display: flex;
+    flex-direction: column;
+    line-height: 2em;
+    flex-wrap: wrap;
+    width: 33%;
+    padding-right: 200px    ;
+}
+
+.screenReader   {
+    color: white;
+    background-color: #0f346c;
+    margin: 0px;
+}
+
+.apps   {
+    height: 30px;
+    width: 150px;
+}
+
+.appImage   {
+    height: 29px;
+    width: 149px;
+}
