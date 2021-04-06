@@ -131,8 +131,8 @@ body    {
 
 .center {
     background-image: url(https://media.blueapron.com/home_page/WhatsInTheDelivery/20171213_HomepageUpdate_WhatsInside_1200_Desktop.jpg?quality=75);
-    background-size: 1400px 1200px;
-    height: 1200px;
+    background-size: 1700px 1200px;
+    height: 1100px;
     display: flex;
     margin: 100px 135px;
 }
@@ -148,6 +148,7 @@ body    {
 .grid   {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-template-rows: 350px 350px;
     grid-template-areas: "a b"
                          "c d";
     padding: 50px 100px;
@@ -185,7 +186,6 @@ body    {
 }
 
 .planSelection  {
-    margin-top: 75px;
     background-color: #2e62af; 
     height: 50px;
     width: 315px;
@@ -242,6 +242,11 @@ body    {
     text-align: center;
 }
 
+.comOptionTitle    {
+    font-size: 14px;
+    font-weight: 500;
+}
+
 .goButton   {
     background-color: #2e62af;
     color: #fff;
@@ -272,8 +277,8 @@ body    {
 }
 
 .blogThumbnail  {
-    height: 100px;
-    width: 100px;
+    height: 80px;
+    width: 80px;
 }
 
 .blog {
